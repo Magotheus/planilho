@@ -13,6 +13,10 @@
     display: inline-block;
 }
 
+#usuario{
+    border: 1px solid red;
+}
+
 #nav{
     height: 60px;
     text-align: center;
