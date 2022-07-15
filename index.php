@@ -17,16 +17,16 @@ include('protect.php');
 <body>
     <header id="header">
         <img src="imagens/planilho.png" alt="logo" id="logo">
+        <div id="usuario">
+        <span> Bem vindo! </span> <strong>Usuario:</strong> <?php echo $_SESSION['nome']; ?>.
+
         
+        <span><button type="submit"><a href="login.php">Sair</a></button></span>
+        
+    </div>
     </header>
 
-    <div>
-        Bem vindo ao Painel, <?php echo $_SESSION['nome']; ?>.
-
-        <p>
-            <a href="login.php">Sair</a>
-        </p>
-    </div>
+   
 
     <nav id="nav">
 

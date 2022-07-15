@@ -4,9 +4,15 @@
     
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 #header{
     height: 100px;
     background-color: #5151e6;
+    
 }
 
 #logo{
@@ -14,7 +20,22 @@
 }
 
 #usuario{
-    border: 1px solid red;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    text-align: center;
+    width: 400px;
+    padding: 9px;
+    margin: 6px 0px;
+    
+}
+
+#usuario button{
+    padding: 10px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #5151e6;
+    margin-left: 10px;
+    
 }
 
 #nav{
@@ -26,11 +47,14 @@
 #nav input{
     padding: 10px;
     border-radius: 50px;
+    text-align: center;
 }
 
 #nav button{
     padding: 10px;
     border-radius: 50px;
+    background-color: #5151e6;
+    
 }
 
 #msg{
