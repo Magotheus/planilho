@@ -19,6 +19,7 @@ include('conexao.php');
     </form>
     <br>
     <table  border="1">
+
         <tr>
             <th>CPF</th>
             <th>Nome</th>
@@ -39,8 +40,8 @@ include('conexao.php');
             <th>telefone5</th>
             <th>telefone6</th>
             <th>email</th>
-            
         </tr>
+        
         <?php
         if (!isset($_GET['busca'])) {
             ?>
@@ -88,13 +89,6 @@ include('conexao.php');
                         <td><?php echo $dados['Telefone5']; ?></td>
                         <td><?php echo $dados['Telefone6']; ?></td>
                         <td><?php echo $dados['Email']; ?></td>
-
-
-
-
-
-
-
                     </tr>
                     <?php
                 }

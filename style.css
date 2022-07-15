@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+#header{
+    height: 100px;
+    background-color: #5151e6;
+}
+
+#logo{
+    display: inline-block;
+}
+
+#nav{
+    height: 60px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+#nav input{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#nav button{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#msg{
+    text-align: center;
+}
+
+.dados{
+    border: 1px solid black;
+    margin: 10px 20px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.dados div{
+    padding: 5px;
+    text-align: center;
+}
